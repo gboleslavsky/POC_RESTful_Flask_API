@@ -4,10 +4,10 @@ no DB but includes basic security and data validation
 To run:
 
 
-'./setup.sh'
+1. './setup.sh'
 
 
-'python flask_restful_demo_cookbook.py'
+2. 'python flask_restful_demo_cookbook.py'
 that starts the server, once started, curl is to be used for testing like so:
 
 to get some vegan recipes,
