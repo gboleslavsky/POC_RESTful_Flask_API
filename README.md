@@ -1,7 +1,7 @@
 a small POC demo of a RESTful API using Flask, Flask-RESTful and Flask-HttpAuth
 no DB but includes basic security and data validation
 
-To run, it's best to setup a virtual environment and do it all there:
+To run:
 1. './setup.sh'
 2. 'python flask_restful_demo_cookbook.py'
 that starts the server, once started, curl is to be used for testing like so:
@@ -9,7 +9,7 @@ that starts the server, once started, curl is to be used for testing like so:
 to get some vegan recipes,
 'curl  -u test:pw -i http://localhost:5000/cookbook/v1.0/recipes/vegan'
 
-to get a specific recipe,
+to get a specific ecipe,
 curl  -u test:pw -i http://localhost:5000/cookbook/v1.0/recipes/1
 
 to get all recipes,
