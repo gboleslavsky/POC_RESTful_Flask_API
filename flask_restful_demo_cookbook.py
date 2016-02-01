@@ -8,7 +8,6 @@ flask_demo = Flask(__name__)
 api = Api(flask_demo)
 auth = HTTPBasicAuth()
 
-
 all_recipes = [
     {
         'unique_id': 1,
