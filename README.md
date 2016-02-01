@@ -2,6 +2,8 @@ a small POC demo of a RESTful API using Flask, Flask-RESTful and Flask-HttpAuth
 no DB but includes basic security and data validation
 
 To run:
+
+
 1. './setup.sh'
 
 
