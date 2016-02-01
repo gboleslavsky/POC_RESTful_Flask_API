@@ -14,10 +14,10 @@ to get some vegan recipes,
 'curl  -u test:pw -i http://localhost:5000/cookbook/v1.0/recipes/vegan'
 
 to get a specific recipe,
-curl  -u test:pw -i http://localhost:5000/cookbook/v1.0/recipes/1
+'curl  -u test:pw -i http://localhost:5000/cookbook/v1.0/recipes/1'
 
 to get all recipes,
-curl  -u test:pw -i http://localhost:5000/cookbook/v1.0/recipes
+'curl  -u test:pw -i http://localhost:5000/cookbook/v1.0/recipes'
 
 
 to add a new recipe:
